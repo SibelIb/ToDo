@@ -1,0 +1,30 @@
+ <template>
+    <div id="errorMsg" innerhtml.bind="registerError"></div>
+         <center> <div class="card" style="width:1000px">
+         <div class="card-body">
+            <h2 class="card-title">Register</h2>
+            <center>
+                    
+            <div class="container" style="max-width:600px;margin:60px auto;">
+                <form role="form">
+                    <div class="form-group">
+                          
+                First Name: <input value.bind="user.firstName" class="form-control" id="firstName" placeholder="First Name">
+        </form> <p>
+                Last Name: <input value.bind="user.lastName" class="form-control" id="lastName" placeholder="Last Name"> 
+        </form> <p>          
+                Email: <input value.bind="user.email" type="email" class="form-control" id="user.email" placeholder="Email"> 
+        </form> <p>
+                Password: <input value.bind="user.password" type="password" class="form-control" id="user.password" placeholder="Password">  
+        </form> </p>
+            <button type="button" class="btn btn-primary" click.trigger="save()">Register</button>
+            <button type="button" class="btn btn-primary" click.trigger="goback()">Back to Login</button>
+            </div>
+        </div>
+        </form> 
+    </center>
+        </div>
+        </div>
+    </center>
+</template>
+

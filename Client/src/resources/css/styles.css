@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.jumbotron {
+    height: 150px;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    background: hsl(206, 69%, 72%);
+  }
+
+.left {
+    float: leftt;
+}
+
+.right {
+    float: right;
+}
+
+.wrapper {
+    width: 500px;
+    margin: auto;
+    padding: auto;
+    overflow: auto;
+}
+
+

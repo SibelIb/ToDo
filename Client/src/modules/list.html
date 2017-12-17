@@ -1,0 +1,11 @@
+ <template>
+	<div class="jumbotron">
+	<h2> ${user.firstName}'s ToDo List</h2> 
+   </div>
+   
+  <compose show.bind="showList" view="./components/todoList.html"></compose>
+  <compose show.bind="!showList" view="./components/todoForm.html"></compose>
+	<!--<button click.trigger="logout()">Logout</button>
+	<button click.trigger="createTodo()">Create a Todo</button> --> 
+</template> 
+	

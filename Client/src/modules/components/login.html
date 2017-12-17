@@ -1,0 +1,25 @@
+<template>
+        
+        <div id="errorMsg" innerhtml.bind="loginError"></div>
+    <center><div class="card" style="width:1000px">
+            <div class="card-body">
+                    <h2 class="card-title">Login</h2>
+                    <br><br>
+    <div class="form-group col">
+        <div class="col-lg-6 col-lg-offset-6">  
+     <label for="email">Email:</label>
+        <input value.bind="email" type="email" class="form-control" id="email" placeholder="Email"></input>
+    <br>
+        <label for="password">Password:</label> 
+        <input value.bind="password" type="password" class="form-control" id="password" placeholder="Password"></input>
+    <br>
+    <button type="button" class="btn btn-primary" click.trigger="login()">Login</button>  
+        <button type="button" class="btn btn-primary" click.trigger="showRegister()">Register</button>
+</div>
+</div>
+</div>    
+</div>
+
+</center>
+    </template>
+        
